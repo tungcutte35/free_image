@@ -1,0 +1,84 @@
+.photo_card{
+  width: 100%;
+  min-height: 120px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 2px #f5f5f5;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.p_c_top, .p_c_bottom{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.2s;
+}
+
+.p_c_top{
+  top: -100px;
+  justify-content: flex-end;
+}
+
+.p_c_bottom{
+  bottom: -100px;
+  justify-content: space-between;
+}
+
+.photo_card:hover .p_c_top{
+  top: 0;
+}
+
+.photo_card:hover .p_c_bottom{
+  bottom: 0;
+}
+
+.p_c_btn{
+  width: 46px;
+  height: 40px;
+  position: static;
+  z-index: 2;
+}
+
+.p_c_btn:hover{
+  background: #eee;
+}
+
+.p_c_btn > i{
+  font-size: 20px;
+}
+
+.p_c_bottom > .author{
+  flex: 1;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  position: static;
+  z-index: 2;
+}
+
+.p_c_bottom > .author > span{
+  flex: 1;
+  font-size: 1.05rem;
+}
+
+.p_c_btn_overflow{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.photo_card:hover .p_c_btn_overflow{
+  background: rgba(0, 0, 0, 0.2);
+}

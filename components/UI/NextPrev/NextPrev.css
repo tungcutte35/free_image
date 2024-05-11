@@ -1,0 +1,28 @@
+.next_prev > button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 101;
+  background: #000;
+  color: white;
+  padding: 10px 8px;
+  opacity: 0.3;
+  border-radius: 5px;
+}
+
+.next_prev > button:hover{
+  opacity: 0.8;
+}
+
+.next_prev > button > i{
+  font-size: 30px;
+  color: white;
+}
+
+.next_prev > button:first-child{
+  left: 10px;
+}
+
+.next_prev > button:last-child{
+  right: 10px;
+}

@@ -1,0 +1,59 @@
+.profile_info{
+  margin: 40px auto;
+}
+
+.p_i_info{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.p_i_info > .avatar{
+  width: 130px;
+  height: 130px;
+}
+
+.p_i_text{
+  flex: 1;
+  max-width: 450px;
+}
+
+.p_i_text > h1{
+  margin-bottom: 4px;
+  text-transform: capitalize;
+}
+
+.p_i_text > h2{
+  color: #777;
+  font-size: 18px;
+  letter-spacing: -0.028px;
+  margin-bottom: 12px;
+}
+
+.p_i_text_btns{
+  display: flex;
+  gap: 5px;
+}
+
+.p_i_text_btns > .btn > i{
+  font-size: 16px;
+}
+
+.p_i_count{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.p_i_count > a > span{
+  color: rgba(22, 24, 35, 0.75);
+  font-weight: 400;
+  letter-spacing: 0.03px;
+  font-size: 16px;
+  margin-left: 6px;
+}
+
+.p_i_count > a:hover{
+  text-decoration: underline;
+}

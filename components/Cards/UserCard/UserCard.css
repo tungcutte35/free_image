@@ -1,0 +1,77 @@
+.user_card{
+  width: 100%;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  gap: 15px;
+  text-align: center;
+  padding: 30px 20px;
+  background: #26235c;
+  cursor: pointer;
+  position: relative;
+}
+
+.user_card > .avatar{
+  width: 100px;
+  height: 100px;
+  background: #26235c;
+  padding: 4px;
+  border: 2px solid #6b61ba;
+}
+
+.user_card > .avatar > img{
+  border-radius: 50%;
+}
+
+.u_c_info{
+  width: 100%;
+  overflow: hidden;
+}
+
+.u_c_info > h3{
+  text-transform: capitalize;
+  font-size: 1.7rem;
+  color: white;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.u_c_info > small{
+  color: #ccc;
+}
+
+.user_card > .btn{
+  background: #6b61ba;
+  margin: 8px auto 0 auto;
+  border-radius: 20px;
+  padding: 0 35px;
+  color: #ccc;
+  height: auto;
+  position: static;
+  z-index: 2;
+}
+
+.user_card > .btn:hover{
+  opacity: 0.8;
+}
+
+.user_card > .btn > i{
+  font-size: 16px;
+}
+
+.user_card > .btn_logout{
+  background: crimson;
+}
+
+.user_card > .following{
+  background: purple;
+}
+
+.user_card > a{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

@@ -1,0 +1,22 @@
+.search_form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.s_f_btn_search{
+  width: 50px;
+  height: 100%;
+  color: #8d8d8d;
+}
+
+.s_f_btn_search > i{
+  font-size: 1.2rem;
+}
+
+.s_f_input{
+  flex: 1;
+  height: 100%;
+  padding-right: 15px;
+}

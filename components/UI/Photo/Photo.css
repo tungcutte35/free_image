@@ -1,0 +1,115 @@
+.modal_active{
+  width: 95vw;
+  background: white;
+  padding: 0 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.p_d_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: sticky;
+  top: 72px;
+  left: 0;
+  z-index: 9;
+  background: white;
+  padding: 20px 0;
+}
+
+.modal_active .p_d_header{
+  top: 0;
+}
+
+.p_d_author{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.p_d_btns{
+  height: 34px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.p_d_btns > .btn > i{
+  font-size: 16px;
+}
+
+/* Photo */
+.p_d_photo{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.p_d_photo_box{
+  position: relative;
+}
+
+.p_d_photo_box:hover{
+  cursor: zoom-in;
+}
+
+.p_d_photo_box > i{
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  color: white;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  display: none;
+}
+
+.p_d_photo_box:hover > i{
+  display: block;
+}
+
+.p_d_photo_box.zoom{
+  width: 100%;
+}
+
+.p_d_photo_box:hover.zoom{
+  cursor: zoom-out;
+}
+
+/* Footer */
+.p_d_footer{
+  margin: 20px 0;
+}
+
+.p_d_footer > h3{
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+.p_d_footer > div{
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  color: #919191;
+}
+
+.p_d_tags > a{
+  background: #dfdfdf;
+  padding: 7px 10px;
+  font-size: 13px;
+  color: #666;
+  border-radius: 4px;
+}
+
+.p_d_tags > a:hover{
+  color: #000;
+}

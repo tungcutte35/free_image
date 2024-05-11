@@ -1,0 +1,13 @@
+.follow{
+  width: 95vw;
+  max-width: 1600px;
+  min-height: 95vh;
+  background: white;
+}
+
+.follow > h1{
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 20px;
+  color: darkblue;
+}
