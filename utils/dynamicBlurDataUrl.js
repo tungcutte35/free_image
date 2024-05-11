@@ -1,7 +1,7 @@
 const baseURL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:3000"
-    : "https://free-images-woad.vercel.app/";
+    : "https://free-images-seven.vercel.app";
 
 export async function dynamicBlurDataUrl(url) {
   // generate the smallest image => covert to Base64.
