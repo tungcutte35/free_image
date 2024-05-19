@@ -31,7 +31,7 @@ export const validFiles = (file) => {
   return {
     status: 'success',
     title: file.name.replace(/.(jpeg|jpg|png)$/gi, ''),
-    tags: ["DevAT-VietNam"],
+    tags: ["ThanhTungFE.Dev"],
     public: false,
     imgUrl: URL.createObjectURL(file),
     fileUpload: file
